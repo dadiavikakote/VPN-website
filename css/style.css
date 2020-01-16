@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: #201F24;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+ 
+
+  #header {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 100%;
+    font-size: 18px;
+  }
+
+  
+
+  #header a{
+    color: black;
+    text-decoration: none;
+  }
+
+
+  
+  #logo {
+    float: left;
+  }
+  
+#logo img{
+   height: 60px;
+   width: 60px;
+   padding-left: 20px;
+}
+
+  #nav {
+    float: right;
+  }
+  
+ 
+  #nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 5px;
+  }
+
+  #nav ul li:hover{
+    background-color: #f23d3d;
+    padding: 5px;
+    border-radius: 7px;
+  }
+
+  #tit{
+    text-align: center;
+    color: white;
+    border-top: #f23d3d 2px solid;
+    border-bottom: #f23d3d 1px solid;
+    background-image: url(../images/bigdata.jpg);
+    min-height: 500px;
+    font-size: 26px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.tit1{
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+}
+
+
+
+  
+    #articles {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+    border-radius: 0px 0px 10px 10px;
+    }
+  
+  
+  .article {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .article img{
+    width: 100px;
+    height: 100px;
+    
+  }
+  
+  .article h4 {
+    text-align: center;
+    color: white;
+  } 
+  
+  
+  #content {
+    overflow: hidden;
+    width: 700px;
+  }
+ 
+  
+#uvd{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   width: 80%;
+    
+    overflow: hidden;
+    height: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+#wis{
+  float: left;
+  width: 700px;
+  padding-left: 20px;
+  
+}
+
+
+
+#wisimg {
+  padding-top: 80px;
+  padding-right: 20px;
+  float: right;
+
+}
+
+
+
+#wisimg img{
+    height: 180px;
+    width: 650px;
+
+}
+
+
+#maincontainer{
+  color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/AP_Rune_Fisker_outline_gig_lead_6_2x.gif);
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+  border: white 1px solid;
+
+}
+
+#maincontainer p{
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#maincontainer h3{
+  font-size: 29px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.descript{
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-bottom: 24px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+
+#descript2 {
+  background-color: white;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 0px 0px 10px 10px;
+  border: white 1px solid;
+  }
+
+#zahtjevi {
+  float: left;
+  width: 40%;
+  margin-left: 3%;
+}
+
+#rjesenja{
+  float: right;
+  width: 40%;
+  margin-right: 3%;
+
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 200px;
+  text-align: center;
+  background-color: #2b2b2e;
+  border-top: #f23d3d 2px solid;
+  font-size: 14px;
+  color: white ;
+}

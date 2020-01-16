@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #201F24;
+  }
+
+
+  #header {
+    padding-bottom: 10px;
+    overflow: hidden;
+    height: 100%;
+    height: 500px;
+    background-image: url(../images/neural_network.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 18px;
+    border-bottom: #f23d3d 1px solid;
+  }
+
+ 
+  .tit1{
+    background: rgba(0, 0, 0, 0.75);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+   
+  
+  }
+  
+
+  #header a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+  
+ 
+  #logo {
+    float: left;
+  }
+  
+#logo img{
+   height: 60px;
+   width: 60px;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+
+
+  #nav {
+    float: right;
+
+ 
+
+  }
+  
+  #nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 5px;
+    padding-top: 15px;
+  }
+
+  #nav ul li:hover{
+    background-color: #f23d3d;
+    padding: 5px;
+    border-radius: 7px;
+  }
+  
+
+
+
+
+  
+  #articles {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    }
+  
+  
+   .article {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: #2D2C32;
+    border-radius: 7px;
+    color: white;
+
+  }
+
+  .button{
+    background-color: #f23d3d; 
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    margin-top: 70px;
+    opacity: 0.85;
+    
+  }
+
+  .button a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 4px;
+
+  }
+
+  .button:hover {
+    opacity: 1;
+  }
+
+
+
+  .article img{
+    width: 400px;
+    height: 200px;
+    border-radius: 7px;
+    
+  }
+  
+  .article h4 {
+    text-align: center;
+    color: white;
+  } 
+
+  .article p{
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 85px;
+    
+  }
+  
+  #content {
+    overflow: hidden;
+    width: 700px;
+  }
+  
+
+  
+#uvd{
+    padding-bottom: 16px;
+    padding-top: 16px;
+    margin-top: 50px;
+    padding-left: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 20px;
+    overflow: hidden;
+    height: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+
+
+}
+
+
+#maincontainer{
+  padding-top: 30px;
+  padding-bottom: 24px;
+  color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/bigdata.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#maincontainer p{
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#maincontainer h3{
+  font-size: 29px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+#descript2 {
+  background-color: white;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  height: 100%;
+  }
+
+#zahtjevi {
+  float: left;
+  width: 40%;
+  margin-left: 3%;
+}
+
+#rjesenja{
+  float: right;
+  width: 40%;
+  margin-right: 3%;
+
+}
+
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+  text-align: center;
+  border-top: #f23d3d 2px solid;
+  background-color: #2b2b2e;
+  font-size: 14px;
+  color: white ;
+}
